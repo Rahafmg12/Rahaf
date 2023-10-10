@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <title>Personal Online Resume</title>
+     <title>Personal Resume</title>
      <link rel="stylesheet" href="style.css">
  <script src="https://kit.fontawesome.com/0b25d587fa.js" crossorigin="anonymous"></script>
- <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 </head>
 <body>
    
@@ -12,23 +11,23 @@
         <div class="container">
           <!-- Bootstrap library used Navbar -->
           <nav>
-            <img src="name1.png" class="logo" alt="logo image">
+            <img src="name1.png" class="logo" width = "200" height = "200"
+            alt="logo image">
             <ul id="sidemenu">
               <li><a href="#About">About me</a></li>
               <li><a href="#Education">Education</a></li>
               <li><a href="#Projects">Projects</a></li>
               <li><a href="#Contact">Contact Info</a></li>
-              <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+           
               </ul>
-              <!-- <i class="fa-solid fa-bars"></i> -->
+             
               </nav>
               <div class="header-text">
                 <p><span class=" reveal-text" >Software engineering student</span></p>
-                <h1><span class=" reveal-text2">Helo, I'm Rahaf Alghamdi </span></h1>
+              <h1><span class=" reveal-text2">Hello, I'm Rahaf Alghamdi </span></h1>
              </div>
          </div>
       </div>
-      <!--About -->
       
       <div id="About">
         <div class="container">
@@ -41,21 +40,21 @@
              <h3>Name:</h3><p> Rahaf Mohammed Alghamdi</p>
              <h3>University Specialization:</h3><p>Software engineering.</p>
              <h3>Aims/objectives:</h3>
-             <p>-Start a business.<br>-Pursue additional education.</p>
+             <p>- Pursue additional education.<br>- Start a business.</p>
               <div class="tab-titles">
-               <p>Skills</p>
+               <h3>Skills:</h3>
               </div>
               <div class ="tab-contents">
                 <ul>
-                  <li><span>UI/UX</span><br>Designing web/App interface</li>
-                    <li><span>Programing</span><br>Computer Programming and Coding</li>
+                  <li><span>- UI/UX</span><br>Designing web/App interface</li>
+                    <li><span>- Programing</span><br>Computer Programming and Coding</li>
                   </ul>
               </div>
              </div>
            </div>
           </div>
       </div>
-      <!-- Education-->
+     
       <div id ="Education">
         <div class="container">
           <h1 class="sub-title">-Education-</h1>
@@ -72,7 +71,7 @@
           </div>
         </div>
       </div>
-      <!-- My Projects -->
+      
       <div id ="Projects">
         <div class="container">
           <h1 class="sub-title">-My Project-</h1>
@@ -80,26 +79,29 @@
       
             <div>
             <i class="fa-brands fa-app-store"></i>
+            <h2>Software process models Project</h2>
+            <p>Title:Ebqa'a.<br>Description:Ebqa'a is a food and pharmaceutical tracking application that allows users to track, sort, and filter the expiration dates of their food and medications. The app collects 
+              information such as the item's expiration date and name.</p>
+            <a href="Ebqa’a project.pdf">project report</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-app-store"></i>
             <h2>HCI-Project</h2>
-            <p>Title:Code Learn.<br>Description:application that combines the most explanatory language and the way to write the code, and the user can also choose from these languages.</p>
-            <a href="https://app.uizard.io/p/4b8b764e">High-Fidelity Interactive Prototype</a>
+             <p>Title:Dallah Application.<br>Description:The main problems we tried to solve are facilitating the reservation service and making it online, providing a training plan for
+              each customer, providing a bus change service, and providingevening appointments..</p>
+             <a href="HCI-Project.pdf">Project report</a>
             </div>
             <div>
-              <i class="fa-solid fa-code"></i>
-            <h2>Data Structures-Project</h2>
-             <p>Title:Employee record.<br>Description:Employee record management system using linked list.</p>
-             <a href="DatastructuresProject.txt">Code in C++</a>
-            </div>
-            <div>
-              <i class="fa-regular fa-file"></i>
-            <h2>Design & Architecture-Project</h2>
-             <p>Title:BizCo System.<br>Description:It is a software architecture project What is required is to create a system based on business goals and choose the appropriate pattern.</p>
-             <a href="Project_SoftwareDesign&Architecture.pdf">Project report</a>
+              <i class="fa-brands fa-app-store"></i>
+            <h2>mobile programming-Project</h2>
+             <p>Title:Dallah App.<br>Description:Our project focuses on designing an improved enrollment system for Dallah Driving School that specifically caters to the needs and preferences of women.
+               Through an online booking service, personalized training plans, coach change options, and evening appointments, we aim to provide a seamless and empowering experience for women interested in acquiring driving skills at Dallah Driving School.</p>
+             <a href="mobile programming Project.pdf">Project report</a>
             </div>
           </div>
         </div>
       </div>
-      <!--Content-->
+      
       <footer>
       <div id ="Contact">
         <div class="container">
@@ -110,7 +112,7 @@
               <p>055-000-555</p>
               <div class="social-icons">
                 <a href="mailto:rahaf.mq1@gmail.com"><i class="fa-regular fa-at"></i></a>
-                <a href="https://github.com/NZ199"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/Rahafmg12/Rahaf.git"><i class="fa-brands fa-github"></i></a>
               </div>
           </div>
         </div>
