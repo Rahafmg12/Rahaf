@@ -11,7 +11,7 @@
         <div class="container">
           <!-- Bootstrap library used Navbar -->
           <nav>
-            <img src="name1.png" class="logo" width = "200" height = "200"
+            <img src="name.png" class="logo" width = "200" height = "200"
             alt="logo image">
             <ul id="sidemenu">
               <li><a href="#About">About me</a></li>
@@ -32,10 +32,10 @@
         <div class="container">
           <div class="row">
             <div class="about-col-1">
-              <img src="about1.png" alt=" about image">
+              <img src="about.png" alt=" about image">
             </div>
              <div class="about-col-2">
-             <h1 class="sub-title"> -About me-</h1>
+             <h1 class="sub-title">  About me </h1>
              <h3>Name:</h3><p> Rahaf Mohammed Alghamdi</p>
              <h3>University Specialization:</h3><p>Software engineering.</p>
              <h3>Aims/objectives:</h3>
@@ -56,7 +56,7 @@
      
       <div id ="Education">
         <div class="container">
-          <h1 class="sub-title">-Education-</h1>
+          <h1 class="sub-title"> Education</h1>
           <div class ="Education-list">
       
             <div>
@@ -73,7 +73,7 @@
       
       <div id ="Projects">
         <div class="container">
-          <h1 class="sub-title">-My Project-</h1>
+          <h1 class="sub-title"> My Project</h1>
           <div class ="Project-list">
       
             <div>
@@ -106,7 +106,7 @@
         <div class="container">
           <div class="row">
             <div class="Contact-left">
-              <h1 class="sub-title">-Contact Info-</h1>
+              <h1 class="sub-title">Contact Information</h1>
               <p>rahaf.mq1@gmail.com</p>
               <p>055-000-555</p>
               <div class="social-icons">
