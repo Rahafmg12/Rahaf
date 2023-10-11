@@ -11,8 +11,8 @@
   }
   body
   {
-  background-color:#f7f0ee;
-  color: #9c8079;
+  background-color:#cdbbca;
+  color: #8b7287;
   }
   #header{
     width: 100%;
@@ -41,7 +41,7 @@
   }
   nav ul li a
   {
-  color:#e6d1cb;
+  color:#7b5676;
   text-decoration: none;
   font-size: 18px;
   position:relative;
@@ -51,7 +51,7 @@
     content: '';
     width: 0%;
     height: 3px;
-    background: #dfc1b9;
+    background: #7b5676;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -72,7 +72,7 @@
   }
   .header-text h1 span
   {
-  color:#ffffff;
+  color:#b496a8;
   }
   /* new move */
   .reveal-text
@@ -82,7 +82,7 @@
       display: block;
       user-select: none;
       animation-name: reveal-text;
-      color: #e6d1cb;
+      color: #7b5676;
       white-space: nowrap;
       cursor: default;
       margin: 0;
@@ -99,7 +99,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: #e6d1cb;
+      background-color: #7b5676;
       transform: scaleX(0);
       transform-origin: 0 50%;
       pointer-events: none;
@@ -139,7 +139,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: #e6d1cb;
+      background-color: #7b5676;
       transform: scaleX(0);
       transform-origin: 0 50%;
       pointer-events: none;
@@ -173,7 +173,7 @@
   #About
   {
     padding: 80px 0;
-    color:#9c8079 ;
+    color:#8b7287 ;
     font-size:14px;
     font-family:Verdana Italic;
   }
@@ -182,7 +182,7 @@
   {
     font-size:16;
     font-family:Verdana Italic;
-    color: #DEC2BA;
+    color: #7b5676;
   }
   
   .row
@@ -210,7 +210,7 @@
     font-size:40px;
     font-weight:200;
     font-family:Times New Roman;
-    color:#DEC2BA;
+    color:#7b5676;
   }
   .tab-titles
   {
@@ -231,7 +231,7 @@
     content: '';
     width: 0%;
     height: 3px;
-    background: #dfc1b9;
+    background: #7b5676;
     position: absolute;
     left: 0;
     transition: 0.5s;
@@ -248,7 +248,7 @@
   }
   .tab-contents ul li span
   {
-    color:#8c7974;
+    color:#8b7287;
     font-size: 14px;
   }
   /* Education */
@@ -300,12 +300,12 @@
     font-weight:0;
     margin-bottom: 15px;
     font-family:Verdana Italic;
-    color:#b49b95;
+    color:#ac7aa6;
   }
   .Project-list div a
   {
     text-decoration: none;
-    color: #7e6c68;
+    color: #ad89a9;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
@@ -316,7 +316,7 @@
   }
   
   .Project-list div:hover{
-  background-color:#ffffff;
+  background-color:#f9f4f4;
   transform:translateY(-10px);
   
   }
@@ -330,7 +330,7 @@
   }
   .Contact-left a i
   {
-  color: #8c7974;
+  color: #7b5676;
   margin-right: 15px;
   font-size: 25px;
   }
@@ -343,7 +343,7 @@
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #8c7974;
+    color: #7b5676;
     display: inline-block;
     transition:transform 0.5s;
   }
