@@ -358,7 +358,7 @@
       display: none;
     }
   
-  @media only screen and (max-width: 576px)
+  @media all and (max-width: 576px)
   {
   .header-text
   {
